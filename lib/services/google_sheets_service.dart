@@ -23,17 +23,32 @@ class GoogleSheetsService {
     try {
       _logger.i('Инициализация Google Sheets...');
 
+      // Проверка валидности конфигурации
+      try {
+        AppConstants.validateEnvironment();
+      } catch (e) {
+        throw Exception(
+          'Ошибка конфигурации Google Sheets:\n\n$e\n\n'
+          'Для настройки:\n'
+          '1. Откройте файл .env.example\n'
+          '2. Следуйте инструкциям для получения учетных данных\n'
+          '3. Скопируйте .env.example в .env\n'
+          '4. Заполните все необходимые данные\n'
+          '5. Перезапустите приложение'
+        );
+      }
+
       // Создание клиента GSheets
       _gsheets = GSheets(AppConstants.googleCredentials);
 
       // Получение таблицы
       _spreadsheet = await _gsheets!.spreadsheet(AppConstants.spreadsheetId);
-      
+
       _logger.d('Таблица найдена: ${_spreadsheet!.data.properties.title}');
 
       // Получение или создание листа
       _worksheet = _spreadsheet!.worksheetByTitle(AppConstants.worksheetName);
-      
+
       if (_worksheet == null) {
         _logger.i('Лист "${AppConstants.worksheetName}" не найден. Создаем...');
         _worksheet = await _spreadsheet!.addWorksheet(AppConstants.worksheetName);
@@ -45,9 +60,38 @@ class GoogleSheetsService {
       _isInitialized = true;
       _logger.i('Google Sheets успешно инициализирован');
     } catch (e, stackTrace) {
-      _logger.e('Ошибка инициализации Google Sheets: $e', 
+      _logger.e('Ошибка инициализации Google Sheets: $e',
           error: e, stackTrace: stackTrace);
       _isInitialized = false;
+
+      // Улучшенное сообщение об ошибке
+      String errorMessage = e.toString();
+
+      if (errorMessage.contains('Requested entity was not found')) {
+        throw Exception(
+          '❌ Ошибка: Таблица Google Sheets не найдена!\n\n'
+          'Возможные причины:\n'
+          '1. Неправильный GOOGLE_SPREADSHEET_ID в файле .env\n'
+          '2. У Service Account нет доступа к таблице\n\n'
+          'Что делать:\n'
+          '1. Проверьте GOOGLE_SPREADSHEET_ID в .env файле\n'
+          '2. Откройте вашу Google Sheets таблицу\n'
+          '3. Нажмите "Поделиться" (Share)\n'
+          '4. Добавьте email из GOOGLE_CLIENT_EMAIL\n'
+          '5. Дайте права "Редактор" (Editor)\n'
+          '6. Перезапустите приложение'
+        );
+      } else if (errorMessage.contains('invalid_grant') ||
+                 errorMessage.contains('unauthorized')) {
+        throw Exception(
+          '❌ Ошибка авторизации!\n\n'
+          'Проверьте правильность учетных данных в .env файле:\n'
+          '• GOOGLE_PRIVATE_KEY\n'
+          '• GOOGLE_CLIENT_EMAIL\n'
+          '• GOOGLE_PROJECT_ID'
+        );
+      }
+
       rethrow;
     }
   }

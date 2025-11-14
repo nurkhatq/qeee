@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:logger/logger.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'providers/app_provider.dart';
 import 'screens/scanner_screen.dart';
 import 'screens/records_screen.dart';
@@ -12,6 +13,19 @@ import 'config/constants.dart';
 void main() async {
   // Инициализация Flutter bindings
   WidgetsFlutterBinding.ensureInitialized();
+
+  // Загрузка переменных окружения из .env файла
+  try {
+    await dotenv.load(fileName: '.env');
+    Logger().i('✅ Переменные окружения загружены');
+
+    // Валидация конфигурации
+    AppConstants.validateEnvironment();
+    Logger().i('✅ Конфигурация Google Sheets валидна');
+  } catch (e) {
+    Logger().e('❌ Ошибка загрузки конфигурации: $e');
+    // Продолжаем работу, но пользователь увидит ошибку при попытке синхронизации
+  }
 
   // Настройка ориентации (только портретная)
   await SystemChrome.setPreferredOrientations([

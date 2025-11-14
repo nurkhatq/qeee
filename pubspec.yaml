@@ -48,6 +48,9 @@ dependencies:
   # UUID для генерации уникальных ID
   uuid: ^4.5.1
 
+  # Environment variables
+  flutter_dotenv: ^5.2.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -55,8 +58,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  
-  # Если нужны будут assets (например, для иконок или примеров)
-  # assets:
-  #   - assets/images/
-  #   - assets/credentials.json
+
+  # Assets
+  assets:
+    - .env
