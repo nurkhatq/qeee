@@ -241,8 +241,8 @@ class GoogleSheetsService {
 
       if (rowCount > 1) {
         // Удаляем все строки кроме заголовка
-        // Используем clear для очистки диапазона, начиная со второй строки
-        await _worksheet!.clear(start: 2, end: rowCount);
+        // Используем deleteRow для удаления строк, начиная со второй
+        await _worksheet!.deleteRow(2, count: rowCount - 1);
         _logger.i('Данные очищены');
       } else {
         _logger.d('Таблица уже пуста');
