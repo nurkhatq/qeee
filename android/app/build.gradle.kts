@@ -45,6 +45,8 @@ android {
     buildTypes {
         getByName("release") {
             isMinifyEnabled = false
+            // Explicitly disable resource shrinking since minifyEnabled is false
+            isShrinkResources = false
         }
     }
 }
