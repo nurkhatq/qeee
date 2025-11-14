@@ -1,0 +1,245 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:1:1-62:12
+INJECTED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:1:1-62:12
+INJECTED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:1:1-62:12
+INJECTED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:1:1-62:12
+MERGED from [androidx.core:core-ktx:1.7.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\1f90a94aae5a14714b37fe0a43564465\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\594e9c4e2d2aba313a6ce30b0202e1f5\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\90f7e03d97baf56e4e75c14859f25b82\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\a384e27462bdf3e4495a2591967ec2b2\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\8b8973f6859cc8145d947fe27c416e03\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\6487d93591287fd271a07eba56528224\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\116a9a4e5de3702104b9385f1df28f68\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\591b5b910d80b42d7eaad24cc6aeec5e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\d77b4ad0c8d4d79b5b4eb24ef69c34e9\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\5f81c6864a24f6294b8bcfcae7b40afc\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\164c4a8499c0160b6ec698ffa07866bb\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\52302557f668c9bc7bc55cded402b65c\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\a33d8588abbb5734fdb0d61b0642b613\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\29be97ab248f3f3faef0c5058519b10e\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\7566989539cd83c90de956161e32537a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\c77cd8c5f7e76e1835bfb0b939492452\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\0b05b14fc2e09458a7237f4c9f2f4330\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\3c0fcaef20709caaa63bb32ba1def927\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\031fec12f875e525ab244931464aa046\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\dd4239f883d0fb74ad6cdb84436b578d\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\916ab9e0419d057142a776d9509db636\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\8a3761bd0835765d9f1e1238c30a8b9f\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\1fb74d1a6116c629b8d05e6ffe7c697f\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\2abe2f8dc1500917d359f210f3a03663\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\2ada40526779b41e5b2b00ff4f60cc0f\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\19aff5c4baf1c486384442c77d28c320\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\99c9399cec5fadf619f489c8a93e82ce\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\6e05d006b774062682b8075f07367b0f\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+	package
+		INJECTED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.CAMERA
+ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:4:5-65
+	android:name
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:4:22-62
+uses-feature#android.hardware.camera
+ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:5:5-85
+	android:required
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:5:58-82
+	android:name
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:5:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:6:5-95
+	android:required
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:6:68-92
+	android:name
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:6:19-67
+uses-permission#android.permission.INTERNET
+ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:13:5-14:38
+	android:maxSdkVersion
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:14:9-35
+	android:name
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:15:5-16:38
+	android:maxSdkVersion
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:16:9-35
+	android:name
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:15:22-77
+application
+ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:18:5-52:19
+INJECTED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:18:5-52:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\591b5b910d80b42d7eaad24cc6aeec5e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\591b5b910d80b42d7eaad24cc6aeec5e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\29be97ab248f3f3faef0c5058519b10e\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\29be97ab248f3f3faef0c5058519b10e\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\031fec12f875e525ab244931464aa046\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\031fec12f875e525ab244931464aa046\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\dd4239f883d0fb74ad6cdb84436b578d\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\dd4239f883d0fb74ad6cdb84436b578d\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\916ab9e0419d057142a776d9509db636\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\916ab9e0419d057142a776d9509db636\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\29be97ab248f3f3faef0c5058519b10e\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:19:9-35
+	android:icon
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:20:9-43
+	android:usesCleartextTraffic
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:21:9-44
+activity#com.example.qr_scanner_app.MainActivity
+ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:23:9-45:20
+	android:launchMode
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:26:13-43
+	android:hardwareAccelerated
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:29:13-47
+	android:windowSoftInputMode
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:30:13-55
+	android:exported
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:25:13-36
+	android:configChanges
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:28:13-163
+	android:theme
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:27:13-47
+	android:name
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:24:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:36:13-39:19
+	android:resource
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:38:17-54
+	android:name
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:37:17-72
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:41:13-44:29
+action#android.intent.action.MAIN
+ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:42:17-68
+	android:name
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:42:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:43:17-76
+	android:name
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:43:27-74
+meta-data#flutterEmbedding
+ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:49:9-51:33
+	android:value
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:51:13-30
+	android:name
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:50:13-44
+queries
+ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:55:5-61:15
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:56:9-60:18
+action#android.intent.action.VIEW
+ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:57:13-65
+	android:name
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:57:21-62
+category#android.intent.category.BROWSABLE
+ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:58:13-74
+	android:name
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:58:23-71
+data
+ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:59:13-44
+	android:scheme
+		ADDED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml:59:19-41
+uses-sdk
+INJECTED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml
+MERGED from [androidx.core:core-ktx:1.7.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\1f90a94aae5a14714b37fe0a43564465\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\1f90a94aae5a14714b37fe0a43564465\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\594e9c4e2d2aba313a6ce30b0202e1f5\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\594e9c4e2d2aba313a6ce30b0202e1f5\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\90f7e03d97baf56e4e75c14859f25b82\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\90f7e03d97baf56e4e75c14859f25b82\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\a384e27462bdf3e4495a2591967ec2b2\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\a384e27462bdf3e4495a2591967ec2b2\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\8b8973f6859cc8145d947fe27c416e03\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\8b8973f6859cc8145d947fe27c416e03\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\6487d93591287fd271a07eba56528224\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\6487d93591287fd271a07eba56528224\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\116a9a4e5de3702104b9385f1df28f68\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\116a9a4e5de3702104b9385f1df28f68\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\591b5b910d80b42d7eaad24cc6aeec5e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\591b5b910d80b42d7eaad24cc6aeec5e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\d77b4ad0c8d4d79b5b4eb24ef69c34e9\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\d77b4ad0c8d4d79b5b4eb24ef69c34e9\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\5f81c6864a24f6294b8bcfcae7b40afc\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\5f81c6864a24f6294b8bcfcae7b40afc\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\164c4a8499c0160b6ec698ffa07866bb\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\164c4a8499c0160b6ec698ffa07866bb\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\52302557f668c9bc7bc55cded402b65c\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\52302557f668c9bc7bc55cded402b65c\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\a33d8588abbb5734fdb0d61b0642b613\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\a33d8588abbb5734fdb0d61b0642b613\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\29be97ab248f3f3faef0c5058519b10e\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\29be97ab248f3f3faef0c5058519b10e\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\7566989539cd83c90de956161e32537a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\7566989539cd83c90de956161e32537a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\c77cd8c5f7e76e1835bfb0b939492452\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\c77cd8c5f7e76e1835bfb0b939492452\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\0b05b14fc2e09458a7237f4c9f2f4330\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\0b05b14fc2e09458a7237f4c9f2f4330\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\3c0fcaef20709caaa63bb32ba1def927\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\3c0fcaef20709caaa63bb32ba1def927\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\031fec12f875e525ab244931464aa046\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\031fec12f875e525ab244931464aa046\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\dd4239f883d0fb74ad6cdb84436b578d\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\dd4239f883d0fb74ad6cdb84436b578d\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\916ab9e0419d057142a776d9509db636\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\916ab9e0419d057142a776d9509db636\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\8a3761bd0835765d9f1e1238c30a8b9f\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\8a3761bd0835765d9f1e1238c30a8b9f\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\1fb74d1a6116c629b8d05e6ffe7c697f\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\1fb74d1a6116c629b8d05e6ffe7c697f\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\2abe2f8dc1500917d359f210f3a03663\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\2abe2f8dc1500917d359f210f3a03663\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\2ada40526779b41e5b2b00ff4f60cc0f\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\2ada40526779b41e5b2b00ff4f60cc0f\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\19aff5c4baf1c486384442c77d28c320\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\19aff5c4baf1c486384442c77d28c320\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\99c9399cec5fadf619f489c8a93e82ce\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\99c9399cec5fadf619f489c8a93e82ce\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\6e05d006b774062682b8075f07367b0f\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\6e05d006b774062682b8075f07367b0f\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\qr_scanner_app\android\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\591b5b910d80b42d7eaad24cc6aeec5e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\dd4239f883d0fb74ad6cdb84436b578d\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\dd4239f883d0fb74ad6cdb84436b578d\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\916ab9e0419d057142a776d9509db636\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\916ab9e0419d057142a776d9509db636\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\591b5b910d80b42d7eaad24cc6aeec5e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\591b5b910d80b42d7eaad24cc6aeec5e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\591b5b910d80b42d7eaad24cc6aeec5e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\591b5b910d80b42d7eaad24cc6aeec5e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\591b5b910d80b42d7eaad24cc6aeec5e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\591b5b910d80b42d7eaad24cc6aeec5e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\591b5b910d80b42d7eaad24cc6aeec5e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\dd4239f883d0fb74ad6cdb84436b578d\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\dd4239f883d0fb74ad6cdb84436b578d\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] D:\primarybackup\dslabs\.gradle\caches\8.10\transforms\dd4239f883d0fb74ad6cdb84436b578d\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78

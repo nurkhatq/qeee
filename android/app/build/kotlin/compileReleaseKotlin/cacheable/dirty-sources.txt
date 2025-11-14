@@ -1,0 +1,1 @@
+C:\qr_scanner_app\android\app\src\main\kotlin\com\yourcompany\qr_scanner_app\MainActivity.kt
