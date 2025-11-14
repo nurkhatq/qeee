@@ -220,7 +220,7 @@ class GoogleSheetsService {
     try {
       final allRows = await _worksheet!.values.allRows();
       // Вычитаем заголовок
-      return allRows.length > 0 ? allRows.length - 1 : 0;
+      return allRows.isNotEmpty ? allRows.length - 1 : 0;
     } catch (e) {
       _logger.w('Ошибка получения количества записей: $e');
       return 0;
@@ -241,7 +241,8 @@ class GoogleSheetsService {
 
       if (rowCount > 1) {
         // Удаляем все строки кроме заголовка
-        await _worksheet!.deleteRows(2, count: rowCount - 1);
+        // Используем clear для очистки диапазона, начиная со второй строки
+        await _worksheet!.clear(start: 2, end: rowCount);
         _logger.i('Данные очищены');
       } else {
         _logger.d('Таблица уже пуста');
