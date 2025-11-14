@@ -152,8 +152,6 @@ class PdfDownloadService {
         return 'Ошибка сертификата безопасности';
       case DioExceptionType.unknown:
         return 'Неизвестная ошибка: ${e.message}';
-      default:
-        return 'Ошибка загрузки файла';
     }
   }
 
