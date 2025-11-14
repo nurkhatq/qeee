@@ -121,7 +121,7 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
             icon: ValueListenableBuilder(
               valueListenable: _scannerController,
               builder: (context, value, child) {
-                final torchState = value?.torchState ?? TorchState.off;
+                final torchState = value.torchState;
                 return Icon(
                   torchState == TorchState.on ? Icons.flash_on : Icons.flash_off,
                 );
