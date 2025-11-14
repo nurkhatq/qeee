@@ -119,10 +119,11 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
           // Кнопка вспышки
           IconButton(
             icon: ValueListenableBuilder(
-              valueListenable: _scannerController.torchState,
-              builder: (context, state, child) {
+              valueListenable: _scannerController,
+              builder: (context, value, child) {
+                final torchState = value?.torchState ?? TorchState.off;
                 return Icon(
-                  state == TorchState.on ? Icons.flash_on : Icons.flash_off,
+                  torchState == TorchState.on ? Icons.flash_on : Icons.flash_off,
                 );
               },
             ),

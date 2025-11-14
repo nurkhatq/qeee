@@ -218,9 +218,9 @@ class GoogleSheetsService {
     }
 
     try {
-      final rowCount = await _worksheet!.values.rowCount;
+      final allRows = await _worksheet!.values.allRows();
       // Вычитаем заголовок
-      return rowCount > 0 ? rowCount - 1 : 0;
+      return allRows.length > 0 ? allRows.length - 1 : 0;
     } catch (e) {
       _logger.w('Ошибка получения количества записей: $e');
       return 0;
@@ -236,13 +236,12 @@ class GoogleSheetsService {
     try {
       _logger.i('Очистка всех данных из таблицы');
 
-      final rowCount = await _worksheet!.values.rowCount;
-      
+      final allRows = await _worksheet!.values.allRows();
+      final rowCount = allRows.length;
+
       if (rowCount > 1) {
-        await _worksheet!.clear(
-          fromRow: 2,
-          toRow: rowCount,
-        );
+        // Удаляем все строки кроме заголовка
+        await _worksheet!.deleteRows(2, count: rowCount - 1);
         _logger.i('Данные очищены');
       } else {
         _logger.d('Таблица уже пуста');
@@ -284,7 +283,7 @@ class GoogleSheetsService {
       
       return {
         'title': properties.title,
-        'id': _spreadsheet!.data.spreadsheetId,
+        'id': _spreadsheet!.id,
         'worksheetTitle': _worksheet!.title,
         'recordCount': recordCount,
       };
